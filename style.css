@@ -1,0 +1,23 @@
+#game-board {
+	width: 300px;
+	margin: 40px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #ccc;
+}
+
